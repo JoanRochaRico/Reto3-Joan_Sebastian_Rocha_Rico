@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ui.sucursales.SucursalesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--    Codigo Caja 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNameP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Corral-Pérez y Asoc." />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="166dp"
+                        android:layout_height="261dp"
+                        android:src="@drawable/s4" />
+
+                    <TextView
+                        android:id="@+id/tvDescriptionP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DIRRECCIÓN:Rúa Arnau, 627, Bajos" />
+
+                    <TextView
+                        android:id="@+id/tvPriceP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TELEFONO:+34 691 218951" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--    Codigo Caja 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNameP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abrego de Huerta" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/s5" />
+
+                    <TextView
+                        android:id="@+id/tvDescriptionP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ruela Natalia, 85, 67º D " />
+
+                    <TextView
+                        android:id="@+id/tvPriceP2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TELEFONO:+34 905064786" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--    Codigo Caja 3-->
+
+            <!--    Codigo Caja 4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="25dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNameP3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Garay, Aranda y Cortez y Flia." />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/s6" />
+
+                    <TextView
+                        android:id="@+id/tvDescriptionP3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Passeig Samuel, 850, 8º 0º" />
+
+                    <TextView
+                        android:id="@+id/tvPriceP3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="957 514514 " />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--    Codigo Caja 5-->
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
