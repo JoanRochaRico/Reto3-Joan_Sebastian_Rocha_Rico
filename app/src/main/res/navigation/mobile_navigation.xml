@@ -27,4 +27,6 @@
         android:name="com.example.reto2.ui.sucursales.SucursalesFragment"
         android:label="@string/menu_sucursales"
         tools:layout="@layout/fragment_sucursales" />
+
+
 </navigation>

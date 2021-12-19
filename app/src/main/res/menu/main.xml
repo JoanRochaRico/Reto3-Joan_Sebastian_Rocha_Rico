@@ -24,6 +24,9 @@
                 android:title="@string/action_add"
                 app:showAsAction="ifRoom"
                 />
+            <item android:title="Mapa"
+                android:id="@+id/opcion1"
+                />
         </menu>
     </item>
 </menu>
